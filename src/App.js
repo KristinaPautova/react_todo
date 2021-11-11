@@ -50,7 +50,7 @@ function App() {
         {todos.length ? <TodoList todos={todos} onToggle = {toggleTodo}/> :
         loading ? null : (<p>Not todos!</p>)}
 
-    </div>
+            </div>
       </Context.Provider>
   );
 }
